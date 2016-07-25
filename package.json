@@ -1,0 +1,11 @@
+{
+  "name": "frouter",
+  "version": "0.1.0",
+  "description": "file path is routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SWPUliusong",
+  "license": "ISC"
+}
