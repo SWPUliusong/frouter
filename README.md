@@ -6,7 +6,9 @@
 
 # example
   `var app = require("express")();`
+  
   `var frouter = require("frouter");`
-   
+  
   `app.use(frouter(app, __dirname + "/routes"));`
+  
   `app.listen(3000)`
