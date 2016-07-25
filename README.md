@@ -12,8 +12,8 @@ app.use(app, options)
 - app: {Object} a express application.
 - options: {Object|String->root}
   - root: {String} router directory
-  - wildcard: {String} will replace it with ':', default '$'
-  - ignorable: {String} will replace it with '?', default '!'
+  - wildcard: {String} will replace it with '`:`', default '`$`'
+  - ignorable: {String} will replace it with '`?`', default '`!`'
 
 # example
 
