@@ -1,0 +1,15 @@
+{
+  "name": "frouter",
+  "version": "0.1.0",
+  "description": "file path is routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SWPUliusong/frouter.git"
+  },
+  "author": "SWPUliusong",
+  "license": "ISC"
+}
