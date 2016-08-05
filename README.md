@@ -1,5 +1,7 @@
 # frouter
   a middleware for express,file path is routes
+  
+  由[nswbmw](https://github.com/nswbmw)大神的[koa-frouter](https://github.com/nswbmw/koa-frouter)加工而成
 
 # install
   npm install frouter
