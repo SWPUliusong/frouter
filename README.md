@@ -52,15 +52,21 @@ exports.post = function (req, res, next) {
 **$id.js**
 
 ```
-/*if you require the middleware like multer*/
+/*如果你使用multer这类中间件或者要添加流程控制,可以将暴露的请求方法赋值为数组*/
 var multer = require("multer");
 var storage = multer.diskStorage({...})
 var upload = multer({storage:storage})
 
 exports.post = [upload.single('coverImg'), function (req, res, next) {
+  if (req.session.user) {
+    next()
+  }
+  else {
+    res.redirect("/login")
+  }
+}, function (req, res, next) {
   var uid = req.params.uid
   console.log(req.file)
-  ...
 }]
 ```
 
