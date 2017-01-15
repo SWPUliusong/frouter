@@ -2,8 +2,9 @@ const app = require("express")()
 const path = require("path")
 const frouter = require("../index.js")
 
-console.log(__dirname)
 app.use(frouter(app, {
     root: __dirname + '/routes',
-    "_": true
+    "_": true,
 }));
+
+app.listen(3000, () => console.log('listening at 3000'))
