@@ -1,6 +1,6 @@
 {
   "name": "frouter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "file path is routes",
   "main": "index.js",
   "scripts": {
