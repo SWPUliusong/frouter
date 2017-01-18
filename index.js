@@ -38,7 +38,7 @@ function frouter(app, opt) {
 				console.log(
 					'%s%s%s -> %s%s%s',
 					'\x1B[32m\x1B[1m',
-					pathRegexp,
+					app.path() + pathRegexp,
 					'\x1B[22m\x1B[39m',
 					'\x1B[36m',
 					method.toUpperCase(),
